@@ -138,7 +138,7 @@ We welcome contributions from the community:
 - Bug reports and feature requests through [Github issues](https://github.com/cape-sh/cape/issues/new)
 
 ### Contact
-Connect with us over on our mailing list or Slack:
+Connect with us on our mailing list or Slack:
 - [<img src="https://img.shields.io/badge/Slack-CAPE-brightgreen">](https://capesh.slack.com)
 
 Our Youtube channel:
