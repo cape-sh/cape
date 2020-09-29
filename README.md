@@ -105,7 +105,7 @@ For CAPE Version V1.0.0
 - Tencent Cloud
 
 ## License
-CAPE is available as an always FREE Community Edition or as a Subscription with dedicated support.
+CAPE is available as an always FREE Community Edition or as an Enterprise Plan with dedicated support.
 
 
 ## Support
