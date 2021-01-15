@@ -48,10 +48,13 @@ Deploy advanced K8s functionalities without the learning curve. This repo is for
 ## Install
 
 ### Start k3d local instance
-Prerequisites: [docker](https://docs.docker.com/get-docker/), [k3d](https://github.com/rancher/k3d)
+Prerequisites:
+- [docker](https://docs.docker.com/get-docker/)
+- [k3d](https://github.com/rancher/k3d) (install latest version > 3)
+
 ```sh
-k3d create -n dev -p 80:80 -p 443:443 --wait=0
-export KUBECONFIG="$(k3d get-kubeconfig --name='dev')"
+k3d cluster create dev -p 443:443@loadbalancer -p 80:80@loadbalancer --agents=0 --wait
+export KUBECONFIG="$(k3d kubeconfig write dev)"
 kubectl cluster-info
 ````
 Note: The Kubernetes cluster "dev" has been created locally
